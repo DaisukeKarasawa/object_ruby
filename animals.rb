@@ -1,19 +1,19 @@
 # 動物
-class Animal
+class Animals
   def sound
     '動物は鳴きます。'
   end
 end
 
 # 犬
-class Dog < Animal
+class Dog < Animals
   def sound
     '犬はワンワンと鳴きます。'
   end
 end
 
 # 猫
-class Cat < Animal
+class Cat < Animals
   def sound
     '猫はニャーと鳴きます。'
   end
