@@ -1,10 +1,10 @@
-require_relative './animals'
+require_relative './animals_behavior'
 
 class Animal
   attr_accessor :kind
 
   def initialize
-    @kind = Animals.new
+    @kind = Zoo.new
   end
 
   def action

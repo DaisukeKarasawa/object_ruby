@@ -1,6 +1,7 @@
 require_relative './animal'
 
-class Animals
+# 動物園ファクトリー
+class Zoo
   def born(type)
     animal = Animal.new
 
